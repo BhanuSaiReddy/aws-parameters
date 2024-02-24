@@ -16,9 +16,11 @@ parameters = {
   "payment.dev.AMQP_HOST"      = { type = "String", value = "rabbitmq-dev.devopsbs344.online" }
   "rabbitmq.dev.AMQP_USER"     = { type = "String", value = "roboshop" }
   "rabbitmq.dev.AMQP_PASS"     = { type = "SecureString", value = "roboshop123" }
+
+  # usually we don"t keep the passwords in Git repo here in real time we create in manually way .
+  # passwords
+
   "docdb.dev.master_password"  = { type = "String", value = "roboshop1234" }
   "rds.dev.master_password"    = { type = "String", value = "roboshop1234" }
 }
 
-# usually we don"t keep the passwords in Git repo here in real time we create in manually way .
-# passwords
