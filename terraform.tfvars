@@ -7,6 +7,8 @@ parameters = {
   "cart.dev.REDIS_HOST" = {type = "String", value = "dev-redis-elasticache-cluster.5cb9ga.0001.use1.cache.amazonaws.com"}
   "cart.dev.CATALOGUE_HOST" = {type = "String", value = "catalogue-dev.devopsbs344.online"}
   "cart.dev.CATALOGUE_PORT" = {type = "String", value = "80"}
+  "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.devopsbs344.online:80" }
+  "shipping.dev.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-c762eeqqau0n.us-east-1.rds.amazonaws.com" }
 
 
 
